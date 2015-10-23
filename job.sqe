@@ -1,0 +1,4 @@
+#$ -pe openmpi* 8
+#$ -N test
+#$ -cwd
+/data/apps/openmpi/1.6.5-intel/bin/mpirun /data/home/jhughe39/cs462/Project1/part1 
